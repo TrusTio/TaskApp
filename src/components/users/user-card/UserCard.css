@@ -3,3 +3,13 @@
     width: 300px;
     margin: 10px;
 }
+.picture-holder {
+    position: relative;
+}
+
+.edit-icon {
+    border: 2px solid black;
+    background-color: white;
+    position: absolute;
+    right: 15px;
+} 

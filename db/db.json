@@ -1,65 +1,95 @@
 {
-    "users": [
-        {
-          "id": "5edd16bfd319a9ded01e651d",
-          "isActive": true,
-          "isAdmin": true,
-          "picture": "https://picsum.photos/200/300?random=1",
-          "age": 20,
-          "name": "Frederick Holder",
-          "email": "frederickholder@zomboid.com",
-          "password": 12345
-        },
-        {
-          "id": "5edd16bf22c5d797dbe095d2",
-          "isActive": true,
-          "isAdmin": true,
-          "picture": "https://picsum.photos/200/300?random=2",
-          "age": 34,
-          "name": "Rios Kent",
-          "email": "rioskent@zomboid.com",
-          "password": 12345
-        },
-        {
-          "id": "5edd16bf71f4518bfcb018b2",
-          "isActive": false,
-          "isAdmin": false,
-          "picture": "https://picsum.photos/200/300?random=3",
-          "age": 24,
-          "name": "Walker Hendrix",
-          "email": "walkerhendrix@zomboid.com",
-          "password": 12345
-        },
-        {
-          "id": "5edd16bfad6acdcf424927be",
-          "isActive": false,
-          "isAdmin": false,
-          "picture": "https://picsum.photos/200/300?random=4",
-          "age": 33,
-          "name": "Dana Gay",
-          "email": "danagay@zomboid.com",
-          "password": 12345
-        },
-        {
-          "id": "5edd16bf447ef53939fa4426",
-          "isActive": true,
-          "isAdmin": false,
-          "picture": "https://picsum.photos/200/300?random=5",
-          "age": 34,
-          "name": "Camacho Anthony",
-          "email": "camachoanthony@zomboid.com",
-          "password": 12345
-        },
-        {
-          "id": "5edd16bf745e318d5f285714",
-          "isActive": false,
-          "isAdmin": false,
-          "picture": "https://picsum.photos/200/300?random=6",
-          "age": 29,
-          "name": "Wade Erickson",
-          "email": "wadeerickson@zomboid.com",
-          "password": 12345
-        }
-      ],
-    "notes": []
+  "users": [
+    {
+      "id": "5edd16bfd319a9ded01e651d",
+      "isActive": true,
+      "isAdmin": "on",
+      "picture": "https://picsum.photos/200/300?random=5",
+      "age": "21",
+      "name": "Frederick Holder2",
+      "email": "frederickholder@zomboid.com",
+      "password": 12345
+    },
+    {
+      "id": "5edd16bf22c5d797dbe095d2",
+      "isActive": true,
+      "isAdmin": true,
+      "picture": "https://picsum.photos/200/300?random=2",
+      "age": "35",
+      "name": "Rios Kent",
+      "email": "rioskent@zomboid.com",
+      "password": 12345
+    },
+    {
+      "id": "5edd16bf71f4518bfcb018b2",
+      "isActive": false,
+      "isAdmin": false,
+      "picture": "https://picsum.photos/200/300?random=3",
+      "age": 24,
+      "name": "Walker Hendrix",
+      "email": "walkerhendrix@zomboid.com",
+      "password": 12345
+    },
+    {
+      "id": "5edd16bfad6acdcf424927be",
+      "isActive": false,
+      "isAdmin": false,
+      "picture": "https://picsum.photos/200/300?random=4",
+      "age": 33,
+      "name": "Dana Gay",
+      "email": "danagay@zomboid.com",
+      "password": 12345
+    },
+    {
+      "id": "5edd16bf447ef53939fa4426",
+      "isActive": true,
+      "isAdmin": false,
+      "picture": "https://picsum.photos/200/300?random=5",
+      "age": 34,
+      "name": "Camacho Anthony",
+      "email": "camachoanthony@zomboid.com",
+      "password": 12345
+    },
+    {
+      "id": "5edd16bf745e318d5f285714",
+      "isActive": false,
+      "isAdmin": false,
+      "picture": "https://picsum.photos/200/300?random=6",
+      "age": 29,
+      "name": "Wade Erickson",
+      "email": "wadeerickson@zomboid.com",
+      "password": 12345
+    },
+    {
+      "email": "ivanperovich@gmail.com",
+      "name": "Ivan Petrov",
+      "age": "23",
+      "password": "12345",
+      "isActive": true,
+      "isAdmin": false,
+      "picture": "https://picsum.photos/200/300?random=1",
+      "id": "bOemRd0"
+    },
+    {
+      "name": "Mitko Ivanov",
+      "age": "23",
+      "email": "mitkoivanov@gmail.com",
+      "password": "12345",
+      "isActive": true,
+      "isAdmin": false,
+      "picture": "https://picsum.photos/200/300?random=1",
+      "id": "7nuwA1x"
+    },
+    {
+      "name": "Georgi Ivanov",
+      "age": "19",
+      "email": "georgiivanov@gmail.com",
+      "password": "12345",
+      "isActive": true,
+      "isAdmin": false,
+      "picture": "https://picsum.photos/200/300?random=19",
+      "id": "01EB9R0"
+    }
+  ],
+  "notes": []
 }
