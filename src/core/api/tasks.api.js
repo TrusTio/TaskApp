@@ -24,3 +24,21 @@ export function saveTask(taskData){
 export function getTaskById(id){
     return axios.get(`${apiUrl}/tasks/${id}`);
 }
+
+export function deleteTask(id){
+    return axios.delete(`${apiUrl}/tasks/${id}`);
+}
+
+export async function getNotesByAuthorId(authorId) {
+    const allTasks = (await getAllTasks()).data;
+
+    return allTasks.filter(task => task.authorId === authorId);
+}
+
+export async function deleteTasksForAuthor(authorId) {
+    const tasks = await getNotesByAuthorId(authorId);
+
+    tasks.forEach(task => {
+        deleteTask(task.id);
+    });
+}

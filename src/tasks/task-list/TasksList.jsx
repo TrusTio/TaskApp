@@ -1,5 +1,5 @@
 import React from 'react';
-import { getAllTasks } from '../../core/api/tasks.api';
+import { getAllTasks, deleteTask } from '../../core/api/tasks.api';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { TaksCard } from '../task-card/TaskCard';
@@ -14,9 +14,18 @@ export function TasksList() {
         });
     }, [])
 
+    const onTaskDelete = (id) =>{
+        deleteTask(id).then(()=>{
+          setTasks((prevState)=> {
+            return prevState.filter(t => t.id !== id);
+          })
+        })
+        .catch((err) => console.error(err));
+      }
+
     return (
         <div className="tasks-list-wrapper">
-            {tasks.map(task => <TaksCard task={task} key={task.id} />)}
+            {tasks.map(task => <TaksCard task={task} key={task.id} onDelete={onTaskDelete} />)}
         </div>
     );
 }

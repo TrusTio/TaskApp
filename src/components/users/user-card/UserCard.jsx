@@ -22,7 +22,7 @@ export function UserCard({ user, onDelete}) {
                 </ul>
                 <div className="card-body">
                    {loggedUser.isAdmin && <Link to={`/users/edit/${user.id}`}>Edit</Link>}
-                   { loggedUser.isAdmin && <div className="cursor-pointer" onClick={() => onDelete(user.id)}>Delete</div> }
+                   { loggedUser.isAdmin && <div className="cursor-pointer text-danger" onClick={() => onDelete(user.id)}>Delete</div> }
                 </div>
         </div>
     )
