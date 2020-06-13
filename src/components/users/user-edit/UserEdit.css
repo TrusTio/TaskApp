@@ -1,11 +1,11 @@
-.login-wrapper{
+.user-edit-wrapper{
     justify-content: center;
     align-items: center;
     display: flex;
     height: 100vh;
 }
 
-.login-form{
+.user-edit-form{
     width: 400px;
     border: 1px solid black;
     border-radius: 10px;

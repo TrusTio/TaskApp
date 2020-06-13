@@ -21,41 +21,11 @@
       "password": 12345
     },
     {
-      "id": "5edd16bf71f4518bfcb018b2",
-      "isActive": false,
-      "isAdmin": false,
-      "picture": "https://picsum.photos/200/300?random=3",
-      "age": 24,
-      "name": "Walker Hendrix",
-      "email": "walkerhendrix@zomboid.com",
-      "password": 12345
-    },
-    {
-      "id": "5edd16bfad6acdcf424927be",
-      "isActive": false,
-      "isAdmin": false,
-      "picture": "https://picsum.photos/200/300?random=4",
-      "age": 33,
-      "name": "Dana Gay",
-      "email": "danagay@zomboid.com",
-      "password": 12345
-    },
-    {
-      "id": "5edd16bf447ef53939fa4426",
-      "isActive": true,
-      "isAdmin": false,
-      "picture": "https://picsum.photos/200/300?random=5",
-      "age": 34,
-      "name": "Camacho Anthony",
-      "email": "camachoanthony@zomboid.com",
-      "password": 12345
-    },
-    {
       "id": "5edd16bf745e318d5f285714",
       "isActive": false,
       "isAdmin": false,
       "picture": "https://picsum.photos/200/300?random=6",
-      "age": 29,
+      "age": "31",
       "name": "Wade Erickson",
       "email": "wadeerickson@zomboid.com",
       "password": 12345
@@ -63,7 +33,7 @@
     {
       "email": "ivanperovich@gmail.com",
       "name": "Ivan Petrov",
-      "age": "23",
+      "age": "22",
       "password": "12345",
       "isActive": true,
       "isAdmin": false,
@@ -81,15 +51,43 @@
       "id": "7nuwA1x"
     },
     {
-      "name": "Georgi Ivanov",
-      "age": "19",
-      "email": "georgiivanov@gmail.com",
+      "name": "Ivan Radkov",
+      "age": "18",
+      "email": "ivanradkov@gmail.com",
       "password": "12345",
-      "isActive": true,
       "isAdmin": false,
-      "picture": "https://picsum.photos/200/300?random=19",
-      "id": "01EB9R0"
+      "isActive": "on",
+      "id": "YlVKOO3"
+    },
+    {
+      "name": "Mitko Radkov",
+      "age": "22",
+      "email": "mitkoradkov@gmail.com",
+      "password": "12345",
+      "isAdmin": false,
+      "isActive": true,
+      "picture": "https://picsum.photos/200/300?random=22",
+      "id": "ZuD211v"
     }
   ],
-  "notes": []
+  "tasks": [
+    {
+      "title": "Some Task",
+      "content": "DO x and Y",
+      "authorId": "5edd16bfd319a9ded01e651d",
+      "authorName": "Frederick Holder2",
+      "date": "2020-06-13T09:13:09.405Z",
+      "estimatedTime": "2",
+      "id": "ULZTCzj"
+    },
+    {
+      "title": "Some another task",
+      "content": "Go shopping",
+      "authorId": "5edd16bfd319a9ded01e651d",
+      "authorName": "Frederick Holder2",
+      "date": "2020-06-13T10:22:36.428Z",
+      "estimatedTime": "1",
+      "id": "OD4GgSo"
+    }
+  ]
 }

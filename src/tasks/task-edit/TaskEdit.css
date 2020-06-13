@@ -1,11 +1,11 @@
-.login-wrapper{
+.task-edit-wrapper{
     justify-content: center;
     align-items: center;
     display: flex;
     height: 100vh;
 }
 
-.login-form{
+.task-edit-form{
     width: 400px;
     border: 1px solid black;
     border-radius: 10px;

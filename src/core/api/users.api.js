@@ -19,12 +19,15 @@ export async function login(userData){
 
     const loggedUser = users.find(u => u.email === userData.email && u.password.toString() === userData.password);
 
+    if(!loggedUser.isActive){
+        throw new Error('The current user is blocked!');
+    }
     if(loggedUser) {
         localStorage.setItem('loggedUser', JSON.stringify(loggedUser));
         return;
     }
 
-    throw Error('Incorrect username/password');
+    throw new Error('Incorrect username/password.');
 }
 
 export async function register(userData) {
@@ -43,10 +46,17 @@ export async function register(userData) {
     return axios.post(`${apiUrl}/users`, userData);
 }
 
-export function editUser(userData) {
+export function saveUser(userData) {
+    if(userData.id){
     return axios.put(`${apiUrl}/users/${userData.id}`, userData);
+    }
+    return register(userData);
 }
 
 export function logout(){
     localStorage.removeItem('loggedUser');
+}
+
+export function deleteUser(id){
+    return axios.delete(`${apiUrl}/users/${id}`);
 }

@@ -5,7 +5,11 @@ import { Redirect } from 'react-router-dom';
 export function AuthenticatedRoute(props){
     const loggedUser = getLoggedUser();
 
-    if(loggedUser){
+    if(props.admin && loggedUser.isAdmin){
+        return <props.component {...props} />
+    }
+    
+    if(!props.admin && loggedUser){
         return <props.component {...props} />
     }
 
