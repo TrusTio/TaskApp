@@ -63,58 +63,54 @@
   ],
   "tasks": [
     {
-      "title": "Task 1",
-      "content": "Do x",
-      "authorId": "bOemRd0",
-      "authorName": "Ivan Petrov",
-      "date": "2020-06-13T13:34:24.045Z",
-      "estimatedTime": "12",
-      "id": "3KZFs4C"
-    },
-    {
-      "title": "Task 2",
-      "content": "Do Y",
-      "authorId": "bOemRd0",
-      "authorName": "Ivan Petrov",
-      "date": "2020-06-13T13:34:32.174Z",
-      "estimatedTime": "21",
-      "id": "T-sVBo0"
+      "title": "Do the dishes",
+      "content": "Do the dishes before going out",
+      "authorId": "5edd16bfd319a9ded01e651d",
+      "authorName": "Frederick Holder2",
+      "date": "14/06/2020",
+      "estimatedTime": "1",
+      "isCompleted": true,
+      "id": 1
     },
     {
       "title": "Clean your room",
       "content": "Clean your room before going out",
       "authorId": "5edd16bfd319a9ded01e651d",
       "authorName": "Frederick Holder2",
-      "date": "2020-06-13T13:45:23.915Z",
-      "estimatedTime": "2",
-      "id": "8WXPbJj"
+      "date": "14/06/2020",
+      "estimatedTime": "1",
+      "isCompleted": true,
+      "id": 2
     },
     {
-      "title": "Workout",
-      "content": "Do your usual workout",
+      "title": "Work out",
+      "content": "Do your work out!",
+      "authorId": "zjGUKRs",
+      "authorName": "George John",
+      "date": "14/06/2020",
+      "estimatedTime": "1",
+      "isCompleted": true,
+      "id": 3
+    },
+    {
+      "title": "Complete your project",
+      "content": "Complete your math project",
+      "authorId": "zjGUKRs",
+      "authorName": "George John",
+      "date": "14/06/2020",
+      "estimatedTime": "3",
+      "isCompleted": true,
+      "id": 4
+    },
+    {
+      "title": "Fix the bike",
+      "content": "Fix your bike when you have the time to do so.",
       "authorId": "5edd16bfd319a9ded01e651d",
       "authorName": "Frederick Holder2",
-      "date": "2020-06-13T13:45:52.550Z",
-      "estimatedTime": "1",
-      "id": "UuQf_vQ"
-    },
-    {
-      "title": "Do my homework",
-      "content": "Do the homework i've been assigned",
-      "authorId": "zjGUKRs",
-      "authorName": "George John",
-      "date": "2020-06-13T13:51:12.692Z",
-      "estimatedTime": "12",
-      "id": "5k-gXFU"
-    },
-    {
-      "title": "Do the dishes",
-      "content": "Do the dishes before going out",
-      "authorId": "zjGUKRs",
-      "authorName": "George John",
-      "date": "2020-06-13T13:51:40.487Z",
-      "estimatedTime": "1",
-      "id": "c8L1A79"
+      "date": "14/06/2020",
+      "estimatedTime": "2",
+      "isCompleted": false,
+      "id": 5
     }
   ]
 }

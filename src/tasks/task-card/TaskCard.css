@@ -1,3 +1,10 @@
 .cursor-pointer{
     cursor: pointer;  
 }
+
+.status-completed{
+    color: lightgreen;
+}
+.status-active{
+    color:lightskyblue
+}

@@ -1,15 +1,14 @@
 import React from 'react';
 
+const styles = {
+    backgroundColor: 'lightblue',
+    height: '20px',
+    width: '100%',
+    position: 'fixed',
+    bottom: 0
+};
+
 export function Footer(){
-
-    const styles = {
-        backgroundColor: 'lightgray',
-        height: '20px',
-        width: '100%',
-        position: 'fixed',
-        bottom: 0
-    };
-
     return(
         <div className="footer" style={styles}>
             <span className="info">Footer works</span>

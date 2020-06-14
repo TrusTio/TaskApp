@@ -3,6 +3,10 @@ import { Link, Redirect } from 'react-router-dom';
 import { logout } from '../../../core/api/users.api';
 import { useState } from 'react';
 
+const styles = {
+    backgroundColor: 'lightblue',
+};
+
 export function Header(){
 
     const [isLoggedOut, setLogoutFlag] = useState(false);
@@ -15,8 +19,7 @@ export function Header(){
     return(
         <>
             {isLoggedOut && <Redirect to="/login"/>}
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a className="navbar-brand" href="#">Navbar</a>
+        <nav className="navbar navbar-expand-lg navbar-light bg-lightblue" style={styles}>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
             </button>
@@ -33,17 +36,13 @@ export function Header(){
                 <Link to="/users/create" className="nav-link"> Create Users </Link>
                 </li>
                 <li className="nav-item">
-                <Link to="/tasks" className="nav-link"> All Tasks </Link>
+                <Link to="/tasks" className="nav-link"> Tasks </Link>
                 </li>
                 <li className="nav-item">
                 <Link to="/tasks/create" className="nav-link"> Create Task </Link>
                 </li>
             </ul>
-            <form className="form-inline my-2 my-lg-0">
-                <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
-                <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-            <span className="logout-btn" onClick={onLogout} >Logout</span>
+            <button className="btn btn-warning" onClick={onLogout} >Logout</button>
             </div>
       </nav>
       </>

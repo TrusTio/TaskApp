@@ -16,7 +16,7 @@ export function saveTask(taskData){
 
     taskData.authorId = loggedUser.id;
     taskData.authorName = loggedUser.name;
-    taskData.date = new Date();
+    taskData.date = new Date().toLocaleDateString('en-GB');
 
     return axios.post(`${apiUrl}/tasks`, taskData);
 }

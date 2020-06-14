@@ -4,6 +4,10 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import { TaksCard } from '../task-card/TaskCard';
 
+const listStyle ={
+  margin: '6px',
+  flexWrap: 'wrap'
+}
 export function TasksList() {
 
     const [tasks, setTasks] = useState([]);
@@ -24,7 +28,7 @@ export function TasksList() {
       }
 
     return (
-        <div className="tasks-list-wrapper">
+        <div className="tasks-list-wrapper d-flex" style={listStyle}>
             {tasks.map(task => <TaksCard task={task} key={task.id} onDelete={onTaskDelete} />)}
         </div>
     );
